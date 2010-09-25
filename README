@@ -1,8 +1,8 @@
 # the smallest taobao api python sdk
-
-# Usage:
-
+#
 ###############################################
+#
+# Usage:
 
 import taobao
 
@@ -10,11 +10,8 @@ op = taobao.OpenTaobao(Your_App_Key,Your_Secret_Code)
 
 params = {
 	'method':'taobao.taobaoke.items.get',
-        'fields':'iid,title,nick,pic_url,price,click_url',
-        'pid':'mm_5410_0_0',
-        'cid':'1512',
-        'page_no':'1',
-        'page_size':'6'
+  'fields':'iid,title,nick,pic_url,price,click_url',
+  'cid':'1512'
 }
 
 print op.get_result(params)
