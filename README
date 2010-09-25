@@ -9,9 +9,9 @@ import taobao
 op = taobao.OpenTaobao(Your_App_Key,Your_Secret_Code)
 
 params = {
-	'method':'taobao.taobaoke.items.get',
-  'fields':'iid,title,nick,pic_url,price,click_url',
-  'cid':'1512'
+    'method':'taobao.taobaoke.items.get',
+    'fields':'iid,title,nick,pic_url,price,click_url',
+    'cid':'1512'
 }
 
 print op.get_result(params)
